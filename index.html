@@ -34,9 +34,9 @@
         <link rel="icon" type="image/png" sizes="512x512" href="assets/pictures/favicon/android-chrome-512x512.png">
 
 
-        <!-- Bibtex-js 
+        <!-- Bibtex-js -->
         <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
-        <bibtex src="assets/bibtex/works.bib"></bibtex> -->
+        <bibtex src="assets/bibtex/works.bib"></bibtex> 
 
     </head>
 
@@ -275,6 +275,10 @@
                                 <i class="fa-solid fa-code interests_icon"></i>
                                 <span class="interests_name">Program</span>
                             </div>
+                            <div class="interests_content">
+                                <i class="fa-solid fa-pizza-slice interests_icon"></i>
+                                <span class="interests_name">Food</span>
+                            </div>
 
                         </div>
                     </section>
@@ -390,52 +394,22 @@
                     <!-- CERTIFICATES -->
                     <section class="certificate section" id="certificates">
                         <h2 class="section-title">Publications</h2>
-
+                        
                         <div id="bibtex_display"></div>
-
-
-                        <div class="certificate_container bd-grid">
-                            <div class="certificate_content">
-                                <div class="certificate_item">
-                                    <span class="certificate_rounder"></span>
-                                </div>
-                                <div class="certificate_data bd-grid">
-                                    <h3 class="certificate_year">Morphometric analysis of atypical glandular cells correctly classifies normal, reactive and atypical cells in cervical samples.</h3>
-                                    <span class="certificate_title">Diagnostic Cytopathology. Marco Vicari*; Leo Guidobaldi; Eleonora Perrella; Antonella Bianchi; Simona Ferrari; Mariarosaria Martucci; Tommasangelo Petitti; Carla Rabitti; Anna Crescenzi. *corresponding author</span>
-                                </div>
-                            </div>
-                            <div class="certificate_content">
-                                <div class="certificate_item">
-                                    <span class="certificate_rounder"></span>
-                                </div>
-                                <div class="certificate_data bd-grid">
-                                    <h3 class="certificate_title">Transcriptional profiling of circulating tumor cells in multiple myeloma: a new model to understand disease dissemination. *Leukemia.*</h3>
-                                    <span class="certificate_authors">Juan José Garcés*, Michal Simicek*, Marco Vicari, Lucie Brozova, Leire Burgos, Renata Bezdekova, Diego Alignani, María José Calsanz, Katerina Growkova, Ibai Goicoechea, Xabier Agirre, Ludêk Pour, Felipe Prosper, Rafael Rios, Joaquin Martínez-López, Pamela Millacoy, Luis Palomera, Rafael Del Orbe Barreto, Albert Pérez-Montaña, Sonia Garate, Laura Blanco, Marta Lasa, Patricia Maiso, Juan Flores-Montero, Luzalba Sanoja Flores, Zuzana Chyra, Alexander Vdovin, Tereza Sevcikova, Tomas Jelinek, Cirino Botta, Halima El Omri, Jonathan Keats, Alberto Orfao, Roman Hajek, Jesus San Miguel, and Bruno Paiva.
-                                        <span class="certificate_honours"> *These authors contributed equally to the work.</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="certificate_content">
-                                <div class="certificate_item">
-                                    <span class="certificate_rounder"></span>
-                                </div>
-                                <div class="certificate_data bd-grid">
-                                    <h3 class="certificate_year">Tumor cells in light-chain amyloidosis and myeloma show different transcriptional rewiring of normal plasma cell development. Blood. </h3>
-                                    <span class="certificate_title"> Alameda D*, Goicoechea I*, Vicari M*, Arriazu E, Nevone A, Rodríguez S, Lasa M, Puig N, Cedena MT, Alignani D, Garate S, Lara-Astiaso D, Vilas-Zornoza A, Sarvide S, Ocio EM, Lecumberri R, Garcia de Coca A, Labrador J, Gonzalez ME, Palomera L, Gironella M, Cabañas V, Casanova M, Oriol A, Krsnik I, Pérez-Montaña A, de la Rubia J, de la Puerta JE, de Arriba F, Fazio VM, Martinez-Lopez J, Lahuerta JJ, Mateos MV, Odero MD, Prosper F, Weiner A, Amit I, Nuvolone M, San-Miguel JFF, Paiva B.
-                                        <span class="certificate_honours">*These authors contributed equally to the work.</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="certificate_content">
-                                <div class="certificate_item">
-                                    <span class="certificate_rounder"></span>
-                                </div>
-                                <div class="certificate_data bd-grid">
-                                    <h3 class="certificate_year">Impact of histology and tumor grade on clinical outcomes beyond 5 years of follow-up in a large cohort of renal cell carcinomas. Clinical Genitourinary Cancer. </h3>
-                                    <span class="certificate_title"> Manuela Costantini, Maria Luana Poeta, Ruth M.Pfeiffer, Dana Hashim, Catherine L.Callahan, Steno Sentinelli, Laura Mendoza, Marco Vicari, Vincenzo Pompeo, Angela Cecilia, Pesatori Curt T. Della Valle, Giuseppe Simone, Vito Michele Fazio, Michele Gallucci, Maria Teresa Landi.
-                                    </span>
-                                </div>
-                            </div>
+                        <div class="bibtex_template">
+                            <div class="if author">
+                              <span class="if year">-
+                                <span class="year" style="color:grey;"></span> 
+                              </span>
+                              <span class="title" style="font-weight: bold;"></span>
+                              <span class="author" max="1" style="color:grey;"></span>
+                              <span class="if journal">
+                                <span class="journal" style="font-weight: bold;"></span>
+                              </span>
+                              <span class="if url" >
+                                <a class="url" style="color:grey;">[view online]</a>
+                              </span>
+                            </div>                        
                         </div>
                     </section>
 
