@@ -263,7 +263,7 @@ img {
 /* Class CSS */
 
 .section {
-    padding: 1.5rem 0;
+    padding: 1.5rem 0; /*original value 1.5*/
 }
 
 .section-title {
@@ -273,7 +273,7 @@ img {
     text-transform: uppercase;
     letter-spacing: .35rem;
     text-align: center;
-    margin-bottom: var(--margin-3);
+    margin-bottom: var(--margin-1); /*original value --margin-3*/
 }
 
 /* Layout */
@@ -456,7 +456,7 @@ img {
 
 .social_container {
     grid-template-columns: max-content;
-    gap: 1rem;
+    gap: 0.5rem; /*original value 1*/
 }
 
 .social_link {
@@ -550,12 +550,12 @@ img {
 /* Skills */
 
 .skills_content {
-    gap: 0.2rem;
+    gap: 0.1rem; /*original value 0.2*/
     padding-left: 2rem;
 }
 
 .skills_name {
-    margin-bottom: .25rem;
+    margin-bottom: .25rem; /*original value 0.25*/
 }
 
 .skills_text {
@@ -603,7 +603,7 @@ img {
 /* Languages */
 
 .languages_content {
-    gap: 0.2rem;
+    gap: 0.1rem; /* original value 0.2*/
     padding-left: 2rem;
 }
 
